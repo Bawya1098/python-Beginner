@@ -1,8 +1,8 @@
-def list_1(list()):
-number = input("enter elements")
-my_array = list()
-print("Enter numbers in array: ")
-for i in range(int(number)):
+def list_1(list):
+    number = int(input("enter elements"))
+    my_array = list[]
+    print("Enter numbers in array: ")
+for i in range(0, number):
     n = input("num :")
     my_array.append(int(n))
 print("ARRAY: ", my_array)
@@ -16,5 +16,4 @@ def higher_num(my_array1):
             return a
 
 
-my_array1 = my_array()
 
