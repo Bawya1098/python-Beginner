@@ -8,8 +8,8 @@ for i in range(int(num)):
 print("ARRAY: ", my_array)
 my_array.sort()
 print("sorted array is:", my_array)
-
-if my_array[i] % 2 == 0:
-    print(my_array[i])
-    sum += i
-    print(sum)
+sum(num for num in my_array if not num % 2)
+i  # f my_array[i] % 2 == 0:
+#  print(my_array[i])
+# sum += i
+print(sum)
