@@ -7,7 +7,7 @@ def check_alphabetical_order():
         list.append(a)
         if list == word:
             print("true")
-    else:
-        print("false")
+        else:
+            print("false")
 
 check_alphabetical_order()

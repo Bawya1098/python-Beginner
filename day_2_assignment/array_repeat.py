@@ -10,5 +10,5 @@ print("sorted list is:", my_array)
 for i in range(len(my_array) - 1):
     if my_array[i] == my_array[i + 1]:
         print(my_array[i])
-        print("{}:{}".format(my_array[i], my_array.count(my_array[i])))
+        print("{}:{}times".format(my_array[i], my_array.count(my_array[i])))
 
